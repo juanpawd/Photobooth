@@ -1,0 +1,18 @@
+﻿header{
+    .navbar{
+        background-color: $brand-blue;
+    }
+    .logo{
+        width: 165px;
+    }
+    .navbar-header{
+        text-align: center;
+    }
+    .navbar-brand{
+        float: none;
+        display: inline-block;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+}
