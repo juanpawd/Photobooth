@@ -10,29 +10,29 @@ class NavBar extends React.Component{
                         <Navbar inverse collapseOnSelect fixedTop={true} fluid={true}>
                             <Navbar.Header>
                                 <Navbar.Brand>
-                                <a href="#brand">
-                                    <img src="images/photobooth@2x.png" alt="Photobooth Costa Rica" className="logo" />
+                                <a href="/">
+                                    <img src="/images/photobooth@2x.png" alt="Photobooth Costa Rica" className="logo" />
                                 </a>
                                 </Navbar.Brand>
                                 <Navbar.Toggle />
                             </Navbar.Header>
                             <Navbar.Collapse>
                                 <Nav>
-                                <NavItem eventKey={1} href="#">
-                                    Home
-                                </NavItem>
-                                <NavItem eventKey={2} href="#">
-                                    Servicios
-                                </NavItem>
-                                <NavItem eventKey={1} href="#">
-                                    Blog
-                                </NavItem>
-                                <NavItem eventKey={2} href="#">
-                                    Cotizaciones
-                                </NavItem>
-                                <NavItem eventKey={2} href="#">
-                                    Contácto
-                                </NavItem>
+                                    <NavItem eventKey={1} href="/">
+                                        Home
+                                    </NavItem>
+                                    <NavItem eventKey={2} href="/servicios">
+                                        Servicios
+                                    </NavItem>
+                                    <NavItem eventKey={2} href="/cotizaciones">
+                                        Cotizaciones
+                                    </NavItem>
+                                    <NavItem eventKey={2} href="/contacto">
+                                        Contacto
+                                    </NavItem>
+                                    <NavItem eventKey={1} href="/blog">
+                                        Blog
+                                    </NavItem>
                                 </Nav>
                             </Navbar.Collapse>
                         </Navbar>

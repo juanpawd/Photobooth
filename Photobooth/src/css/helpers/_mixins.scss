@@ -10,3 +10,30 @@
     font-size: $size;
     font-size: calculateRem($size)
 }
+
+// Mixin for controlling the media queries
+@mixin phone {
+   @media (max-width: #{$screen-md - 1px}) {
+     @content;
+   }
+}
+@mixin phablet {
+  @media (min-width: #{$screen-sm}) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: #{$screen-md}) {
+    @content;
+  }
+}
+@mixin tablet-only {
+   @media (min-width: #{$screen-md}) and (max-width: #{$screen-lg}) {
+     @content;
+   }
+}
+@mixin desktop {
+  @media (min-width: #{$screen-lg}) {
+    @content;
+  }
+}

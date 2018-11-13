@@ -9,7 +9,9 @@ const Us = (props) => (
                     <p>Somos pioneros en Costa Rica del entretenimiento fotográfico desde el 2009 especializándonos en el ámbito del Photobooth. Somos la única empresa en contar con la mayor variedad de estilos de Photobooth</p>
                     <p>Contamos con alquiler de cabinas fotograficas de color digitales y de impresión térmica como la PhotoVocha, El MirrorBooth, El Vintage Photo Booth, y El Open Air los cuales proporcionan recuerdos instantá- neos únicos para sus invitados.</p>
                 </Col>
-                <Col xs={12} md={6} lgOffset={1} lg={3}></Col>
+                <Col xs={12} xsHidden smHidden md={6} lgOffset={1} lg={3} className="image-block">
+                    <img src="images/photobooth-grid.png" className="img-responsive" alt="" />
+                </Col>
             </Row>
             <Row>
                 <Col xs={12} md={6} lgOffset={2} lg={4}></Col>

@@ -7,9 +7,11 @@ $brand-blue: #282B3D;
 $brand-yellow: #FFF450;
 $brand-red: #DE4F51;
 $text-gray: #4A4A4A;
+$light-gray: #ECECEC;
+$error-red: #a94442;
 
 //== Iconography
-$icon-font-path: "/Content/fonts/" !default;
+$icon-font-path: "../fonts/" !default;
 
 // Bootstrap Container Overwrite
 $container-max-width:        1170px;
